@@ -1,0 +1,95 @@
+body {
+    margin : 0;
+    padding : 0;
+    background: url("../background.png");
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 24px;
+    display : grid;
+    grid-template-columns: auto auto 300px;
+    grid-row-start: auto;
+    grid-gap: 30px;
+
+}
+
+#caption p{
+    margin-top: 15%;
+    text-align: justify;
+}
+
+#caption hr{
+    border: 1px solid white;
+}
+
+#caption img{
+    width: 300px;
+}
+
+#get-started {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    border: none;
+    border-radius: 24px;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    width: 10%;
+
+}
+
+#get-started:hover {
+    background: #202020;
+    border: 2px solid white;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #202020;
+    overflow: auto;
+    border-bottom: white solid 2px;
+}
+
+/* Navbar links */
+.navbar a {
+    float: right;
+    text-align: center;
+    padding: 17px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: white;
+    color: #202020;
+}
+
+/* Current/active navbar link */
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
+
+#logo-navbar {
+    width: 60px;
+    padding: 5px 0 5px 15px ;
+}
