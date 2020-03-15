@@ -18,11 +18,12 @@ session_start();
 
 
 <div class="navbar">
-    <img id="logo-navbar"  src="../logo.png">
+    <img id="logo-navbar"  src="../src/logo.png">
     <?php if (isset($_SESSION['id'])): ?>
         <a href="#"><i class="fa fa-fw fa-user"></i> Logout</a>
     <?php else: ?>
         <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+        <a href="../inscription.php"><i class="fa fa-fw fa-user-plus"></i> Register</a>
     <?php endif; ?>
 </div>
 

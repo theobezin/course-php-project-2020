@@ -4,7 +4,7 @@ include 'templates/header.php';
 
 ?>
 <div id="caption">
-    <img src="logo.png" alt="logo" title="logo">
+    <img src="src/logo.png" alt="logo" >
     <hr>
     <p>Create your own TODO lists,
         share them and collaborate
